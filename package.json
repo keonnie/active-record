@@ -1,6 +1,6 @@
 {
   "name": "@keonnie/active-record",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple and ambitious Nodejs library to facilitate the creation and use of business objects following the Active Record pattern.",
   "author": "Keonnie Engineering Team",
   "license": "MIT",

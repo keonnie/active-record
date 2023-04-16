@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.1.0] - 2023-04-16
+
 ### Added
 
 - Support for MongoDB Client-Side Field Level Encryption (CSFLE) with configuration file `.karenc.yml`
@@ -36,5 +38,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Add validators helpers for email
 - Add validators helpers for string
 
-[unreleased]: https://github.com/keonnie/active-record/compare/0.0.1...HEAD
+[unreleased]: https://github.com/keonnie/active-record/compare/0.1.0...HEAD
+[0.1.0]: https://github.com/keonnie/active-record/compare/0.0.1...0.1.0
 [0.0.1]: https://github.com/keonnie/active-record/releases/tag/0.0.1
