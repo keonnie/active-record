@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Support for MongoDB Client-Side Field Level Encryption (CSFLE) with configuration file `.karenc.yml`
+- Included `encryption.md` documentation providing details on setting up CSFLE
+- Added `mongodb-client-encryption` and `mongocrypt` dependencies to enable CSFLE functionality
+- Included `yaml` package as a dependency for transforming YAML configuration files into JSON objects
+- Added predefined pattern for Personally Identifiable Information (PII) for models
+
+### Changed
+
+- Instantiation of MongoDB Client is now done at `connect`
+
 ## [0.0.1] - 2023-04-16
 
 ### Added

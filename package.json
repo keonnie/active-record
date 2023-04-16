@@ -31,7 +31,9 @@
   },
   "dependencies": {
     "inflected": "^2.1.0",
-    "mongodb": "^5.1.0"
+    "mongodb": "^5.2.0",
+    "mongodb-client-encryption": "^2.7.1",
+    "yaml": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^8.31.0",

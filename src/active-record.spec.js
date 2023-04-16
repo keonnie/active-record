@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals'
 
-await import('../__mocks__/mongodb')
+await import('../__mocks__/mongodb-dependencies')
 const { Database } = await import('.')
 const { default: ActiveRecord } = await import('./active-record')
 

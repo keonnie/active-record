@@ -1,4 +1,5 @@
 import { jest } from '@jest/globals'
+import { default as source } from 'mongodb'
 
 // Client level mocks
 export const __mockConnect = jest.fn()
@@ -22,6 +23,7 @@ __mockDB.mockReturnValue({
 })
 
 jest.unstable_mockModule('mongodb', () => ({
+  ...source,
   MongoClient: jest.fn().mockImplementation(() => {
     return {
       connect: __mockConnect,
@@ -31,4 +33,4 @@ jest.unstable_mockModule('mongodb', () => ({
   }),
 }))
 
-export const { MongoClient } = await import('mongodb')
+export const { ObjectId, MongoClient } = await import('mongodb')

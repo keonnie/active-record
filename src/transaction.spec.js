@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals'
 
-await import('../__mocks__/mongodb')
+await import('../__mocks__/mongodb-dependencies')
 const { Transaction } = await import('.')
 
 describe('Unit | Transaction', () => {

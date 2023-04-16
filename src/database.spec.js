@@ -7,7 +7,7 @@ jest.unstable_mockModule('./transaction', () => ({
   }),
 }))
 
-await import('../__mocks__/mongodb')
+await import('../__mocks__/mongodb-dependencies')
 const { ActiveRecord, Database, Transaction } = await import('.')
 
 describe('Unit | Database', () => {
